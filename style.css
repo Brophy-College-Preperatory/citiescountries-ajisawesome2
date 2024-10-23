@@ -1,19 +1,19 @@
 html {
-  height: 100%;
-  width: 100%;
-  background-color: lightblue;
+  height: 100%/*this makes the height of the picture 100% */
+  width: 100%;/*this makes the width of the picture 100% */
+  background-color: lightblue;/*this makes the backround of the website light blue*/
 }
 
 h2 {
-  text-align: center;
+  text-align: center; /*this makes the text and image front and centered perfectly */
 }
 
 /* #heading will hold styling code that only pertains to items on the HTML file with the ID heading */
 nav {
-  background-color: white;
-  color: black;
+  background-color: white; /*this makes the borders of the boxes white*/
+  color: black; /*this makes the text color black*/
   padding: 5px;
-  text-align: center;
+  text-align: center;/*this makes the text centered and perfect*/
 }
 
 ul {
@@ -21,7 +21,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: navy;
+  background-color: navy; /*makes the backround color of the cities and countries bocx navy*/
 }
 
 li {
@@ -30,23 +30,23 @@ li {
 
 li a {
   display: block;
-  color: white;
-  text-align: center;
+  color: white; /* make the test color white for the boxes that name the capitals.*/
+  text-align: center; /*centers the text of the capitals and makes them perfect*/
   padding: 14px 16px;
   text-decoration: none;
 }
 
 /* .city1 will hold styling code that pertains to all items on the HTML file with the class city1, regardless of their tag */
 .city1 {
-  background-color: tomato;
-  color: white;
+  background-color: tomato; /*makes the color of the box tomato color*/
+  color: white; /* make the test color white for the boxes that name the capitals.*/
   padding: 10px;
 } 
 
 /* .city2 will hold styling code that pertains to all items on the HTML file with the class city2, regardless of their tag */
 .city2 {
-  background-color: lightsalmon;
-  color: white;
+  background-color: lightsalmon; /*makes the color of the box light salmon color*/
+  color: white; /* make the test color white for the boxes that name the capitals.*/
   padding: 10px;
 } 
 
@@ -60,11 +60,11 @@ img {
 }
 
 .image1 {
-  border-color: white;
+  border-color: white; /*makes the border colors white for image one*/
   padding: 5px;
 }
 
 .image2 {
-  border-color: white;
+  border-color: white;  /*makes the border colors white for image two*/
   padding: 20px;
 }
